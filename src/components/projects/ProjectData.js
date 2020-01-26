@@ -1,4 +1,4 @@
-const project1 = {
+const starwars = {
   image: "https://i.ibb.co/x1ZcqcT/Screen-Shot-2020-01-26-at-10-41-18-AM.png",
   title: "Star Wars API",
   text:
@@ -8,7 +8,7 @@ const project1 = {
   footer: "Technologies and Frameworks: CSS and JavaScript"
 };
 
-const project2 = {
+const weather = {
   image: "https://i.ibb.co/xzcCdTR/Screen-Shot-2020-01-26-at-10-48-14-AM.png",
   title: "Weather App",
   text:
@@ -18,8 +18,8 @@ const project2 = {
   footer: "Technologies and Frameworks: React, CSS, JavaScript, Semantic UI"
 };
 
-const fem1 = {
-  image: "https://i.ibb.co/hcDTyj5/Screen-Shot-2020-01-26-at-10-50-03-AM.png",
+const singleColumn = {
+  image: "https://i.ibb.co/DDMLxbh/Screen-Shot-2020-01-26-at-10-50-03-AM.png",
   title: "Coming Soon Landing Page",
   text: "Webpage that shows a landing page for a future company",
   pagelink: "https://coming-soon-page-example.netlify.com/",
@@ -27,4 +27,4 @@ const fem1 = {
   footer: "Technologies and Frameworks: CSS and JavaScript"
 };
 
-export const ProjectData = [project1, project2, fem1];
+export const ProjectData = [starwars, weather, singleColumn];

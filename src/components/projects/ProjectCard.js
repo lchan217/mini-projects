@@ -7,8 +7,12 @@ const ProjectCard = ({
 }) => {
   return (
     <div>
-      <Card style={{ width: "18rem" }}>
-        <Card.Img variant='top' src={`${image}`}></Card.Img>
+      <Card style={{ width: "18rem", height: "30rem" }}>
+        <Card.Img
+          variant='top'
+          src={`${image}`}
+          style={{ height: "10rem" }}
+        ></Card.Img>
         <Card.Body>
           <Card.Title> {title}</Card.Title>
           <Card.Text> {text}</Card.Text>
