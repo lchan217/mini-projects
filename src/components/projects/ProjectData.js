@@ -3,9 +3,8 @@ const project1 = {
   title: "Star Wars API",
   text:
     "Web app that fetches from swapi.co and displays Star Wars movies and their characters upon click",
-  pagelink: "star-wars",
-  codelink:
-    "https://github.com/lchan217/mini-projects/tree/master/src/components/starWars",
+  pagelink: "https://coming-soon-page-example.netlify.com/",
+  codelink: "https://github.com/kyoung90/Single-Column-Coming-Soon-Page",
   footer: "Technologies and Frameworks: CSS and JavaScript"
 };
 

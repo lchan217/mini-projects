@@ -16,7 +16,9 @@ const ProjectCard = ({
           <ButtonGroup>
             <Button variant='primary'>
               {" "}
-              <a href={`http://localhost:3000/${pagelink}`}>See Page</a>
+              <a href={`${pagelink}`} target='_blank' rel='noopener noreferrer'>
+                See Page
+              </a>
             </Button>
             <Button variant='primary'>
               {" "}
