@@ -3,7 +3,7 @@ const project1 = {
   title: "Star Wars API",
   text:
     "Web app that fetches from swapi.co and displays Star Wars movies and their characters upon click",
-  link: "Go to this SPA",
+  link: "/star-wars",
   footer: "Technologies and Frameworks: CSS and JavaScript"
 };
 
