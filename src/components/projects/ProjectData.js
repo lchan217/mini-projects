@@ -1,8 +1,10 @@
-export const ProjectData = {
-  Image: "Image",
-  Title: "Star Wars API",
-  Text:
+const project1 = {
+  image: "Image",
+  title: "Star Wars API",
+  text:
     "Web app that fetches from swapi.co and displays Star Wars Movies and their characters upon click",
-  Link: "Go to this SPA",
-  Footer: "Languages: CSS and JavaScript"
+  link: "Go to this SPA",
+  footer: "Technologies and Frameworks: CSS and JavaScript"
 };
+
+export const ProjectData = [project1];
