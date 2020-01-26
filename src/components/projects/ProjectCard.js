@@ -8,8 +8,7 @@ const ProjectCard = ({
   return (
     <div>
       <Card style={{ width: "18rem" }}>
-        <h1> {image} </h1>
-        {/* <Card.Img variant='top' src='holder.js/100px180' /> */}
+        <Card.Img variant='top' src={`${image}`}></Card.Img>
         <Card.Body>
           <Card.Title> {title}</Card.Title>
           <Card.Text> {text}</Card.Text>

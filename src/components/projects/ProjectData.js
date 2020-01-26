@@ -1,5 +1,5 @@
 const project1 = {
-  image: "Image",
+  image: "https://i.ibb.co/x1ZcqcT/Screen-Shot-2020-01-26-at-10-41-18-AM.png",
   title: "Star Wars API",
   text:
     "Web app that fetches from swapi.co and displays Star Wars movies and their characters upon click",
@@ -9,7 +9,7 @@ const project1 = {
 };
 
 const project2 = {
-  image: "Image",
+  image: "https://i.ibb.co/xzcCdTR/Screen-Shot-2020-01-26-at-10-48-14-AM.png",
   title: "Weather App",
   text:
     "Web app that fetches Munich weather data and displays daily average on cards and daily weather in 3 hour increments in a bar graph",
@@ -19,7 +19,7 @@ const project2 = {
 };
 
 const fem1 = {
-  image: "Image",
+  image: "https://i.ibb.co/hcDTyj5/Screen-Shot-2020-01-26-at-10-50-03-AM.png",
   title: "Coming Soon Landing Page",
   text: "Webpage that shows a landing page for a future company",
   pagelink: "https://coming-soon-page-example.netlify.com/",
