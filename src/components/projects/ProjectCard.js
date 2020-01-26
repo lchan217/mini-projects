@@ -1,8 +1,10 @@
 import React from "react";
-import { Card, Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Card, Button, ButtonGroup } from "react-bootstrap";
+import "./ProjectCard.css";
 
-const ProjectCard = ({ project: { image, title, text, link, footer } }) => {
+const ProjectCard = ({
+  project: { image, title, text, pagelink, codelink, footer }
+}) => {
   return (
     <div>
       <Card style={{ width: "18rem" }}>
@@ -11,8 +13,18 @@ const ProjectCard = ({ project: { image, title, text, link, footer } }) => {
         <Card.Body>
           <Card.Title> {title}</Card.Title>
           <Card.Text> {text}</Card.Text>
-          <Button variant='primary'></Button>
-          <Link to={`/${link}`}>Show display</Link>
+          <ButtonGroup>
+            <Button variant='primary'>
+              {" "}
+              <a href={`http://localhost:3000/${pagelink}`}>See Page</a>
+            </Button>
+            <Button variant='primary'>
+              {" "}
+              <a href={`${codelink}`} target='_blank' rel='noopener noreferrer'>
+                Go To Code
+              </a>
+            </Button>
+          </ButtonGroup>
         </Card.Body>
         <Card.Footer>{footer}</Card.Footer>
       </Card>
