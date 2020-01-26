@@ -1,15 +1,13 @@
-import React, { Component } from "react";
-
+import React from "react";
+import ProjectCard from "./ProjectCard";
 import { ProjectData } from "./ProjectData";
 
-class ProjectCards extends Component {
-  render() {
-    return (
-      <div>
-        <h1>ProjectCard Component</h1>
-      </div>
-    );
-  }
-}
+const ProjectCards = () => (
+  <div>
+    {ProjectData.map((project, index) => (
+      <ProjectCard project={project} key={index} />
+    ))}
+  </div>
+);
 
 export default ProjectCards;
