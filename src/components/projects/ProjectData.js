@@ -18,7 +18,7 @@ const project2 = {
 
 const fem1 = {
   image: "Image",
-  title: "Coming Soon Landy Page",
+  title: "Coming Soon Landing Page",
   text: "Webpage that shows a landing page for a future company",
   link: "Go to this SPA",
   footer: "Technologies and Frameworks: CSS and JavaScript"

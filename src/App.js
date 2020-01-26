@@ -18,7 +18,7 @@ function App() {
           >
             frontend mentor challenges
           </a>
-          . Enjoy!
+          . Any feedback is welcomed. Enjoy!
         </p>
         <ProjectCards />
       </Container>
