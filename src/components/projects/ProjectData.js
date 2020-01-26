@@ -3,8 +3,8 @@ const project1 = {
   title: "Star Wars API",
   text:
     "Web app that fetches from swapi.co and displays Star Wars movies and their characters upon click",
-  pagelink: "Go to this SPA",
-  codelink: "github",
+  pagelink: "https://star-wars-tech-challenge.netlify.com/",
+  codelink: "https://github.com/lchan217/star-wars-api",
   footer: "Technologies and Frameworks: CSS and JavaScript"
 };
 
@@ -13,8 +13,8 @@ const project2 = {
   title: "Weather App",
   text:
     "Web app that fetches Munich weather data and displays daily average on cards and daily weather in 3 hour increments in a bar graph",
-  pagelink: "Go to this SPA",
-  codelink: "github",
+  pagelink: "https://weather-tech-challenge.netlify.com/",
+  codelink: "https://github.com/lchan217/weather-app",
   footer: "Technologies and Frameworks: React, CSS, JavaScript, Semantic UI"
 };
 
