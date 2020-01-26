@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import ProjectCard from "./components/ProjectCard";
+import ProjectCards from "./components/projects/ProjectCards";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         </a>
         . Enjoy!
       </p>
-      <ProjectCard />
+      <ProjectCards />
     </div>
   );
 }

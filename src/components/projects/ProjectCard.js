@@ -4,7 +4,7 @@ import { Card, Button } from "react-bootstrap";
 const ProjectCard = () => {
   return (
     <div>
-      <h1>ProjectCard Component</h1>
+      PrjectCardComponent
       <Card style={{ width: "18rem" }}>
         <h1> Image: thumbnail of SPA </h1>
         {/* <Card.Img variant='top' src='holder.js/100px180' /> */}
