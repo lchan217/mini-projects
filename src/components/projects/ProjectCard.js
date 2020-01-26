@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Button, ButtonGroup } from "react-bootstrap";
+import { Card, Button } from "react-bootstrap";
 import "./ProjectCard.css";
 
 const ProjectCard = ({
@@ -13,20 +13,20 @@ const ProjectCard = ({
         <Card.Body>
           <Card.Title> {title}</Card.Title>
           <Card.Text> {text}</Card.Text>
-          <ButtonGroup>
-            <Button variant='primary'>
-              {" "}
-              <a href={`${pagelink}`} target='_blank' rel='noopener noreferrer'>
-                See Page
-              </a>
-            </Button>
-            <Button variant='primary'>
-              {" "}
-              <a href={`${codelink}`} target='_blank' rel='noopener noreferrer'>
-                Go To Code
-              </a>
-            </Button>
-          </ButtonGroup>
+          <Button
+            href={`${pagelink}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            See Page
+          </Button>{" "}
+          <Button
+            href={`${codelink}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            See Code
+          </Button>
         </Card.Body>
         <Card.Footer>{footer}</Card.Footer>
       </Card>
