@@ -3,8 +3,8 @@ const project1 = {
   title: "Star Wars API",
   text:
     "Web app that fetches from swapi.co and displays Star Wars movies and their characters upon click",
-  pagelink: "https://coming-soon-page-example.netlify.com/",
-  codelink: "https://github.com/kyoung90/Single-Column-Coming-Soon-Page",
+  pagelink: "Go to this SPA",
+  codelink: "github",
   footer: "Technologies and Frameworks: CSS and JavaScript"
 };
 
@@ -22,8 +22,8 @@ const fem1 = {
   image: "Image",
   title: "Coming Soon Landing Page",
   text: "Webpage that shows a landing page for a future company",
-  pagelink: "Go to this SPA",
-  codelink: "github",
+  pagelink: "https://coming-soon-page-example.netlify.com/",
+  codelink: "https://github.com/kyoung90/Single-Column-Coming-Soon-Page",
   footer: "Technologies and Frameworks: CSS and JavaScript"
 };
 
