@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### These projects have moved over to https://github.com/lchan217/My-Portfolio and will be its own tab in my portfolio
+
 ## Available Scripts
 
 In the project directory, you can run:
